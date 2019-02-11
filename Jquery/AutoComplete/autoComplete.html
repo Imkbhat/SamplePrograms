@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Auto Complete in Jquery</title>
+
+<script src="jquery-1.12.4.js" type="text/javascript"></script>
+<script src="jquery-ui.min.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="myDivs">
+	<label>Enter ur Fav City :</label>
+	<input type="text" name="" id="citytextbox"/>
+</div>
+</body>
+
+<script>
+var mycities = ["Bangalore", "Shivamogga", "Thirthahalli","Tumakur","Tipturu","Beede","Konandur","Sringeri"]
+$("#citytextbox").autocomplete(
+{
+	source: mycities
+},
+{
+   autoFocus:true,
+   delay : 300,
+   minLength : 1
+});
+
+</script>
+
+</html>

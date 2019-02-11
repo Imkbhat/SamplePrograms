@@ -1,0 +1,11 @@
+Ways to Create Object and Tried.
+
+PartogramFormDAO dao = new PartogramFormDAO();
+PartogramFormDAO dao1 = (PartogramFormDAO) Class.forName("com.insta.hms.Partogram.PartogramFormDAO").newInstance();
+PartogramFormDAO anotherDAO = (PartogramFormDAO) dao.clone();
+
+FileInputStream stream = new FileInputStream("file.txt");
+ObjectInputStream inStream = new ObjectInputStream(stream);
+PartogramFormDAO streamObj = (PartogramFormDAO) inStream.readObject();
+
+PartogramFormDAO daoAnother = PartogramFormDAO.class.newInstance();
