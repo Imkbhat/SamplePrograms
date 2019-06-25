@@ -24,3 +24,5 @@ public class DogClonable implements Cloneable {
 	}
 
 }
+
+//Output: Tommy
