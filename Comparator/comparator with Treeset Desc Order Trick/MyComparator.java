@@ -9,5 +9,6 @@ public class MyComparator implements Comparator<Object> {
 		Integer i1 = (Integer) obj1; 
 		Integer i2 = (Integer) obj2;
 		return -i1.compareTo(i2);
+		//return i2.compareTo(i1); also produces Descending Order.
 	}
 }
