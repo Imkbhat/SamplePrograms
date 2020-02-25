@@ -18,3 +18,10 @@ public static void main(String[] args) {
          
         System.out.print(obj);
     }
+
+         
+ Note: JSON parser has to be installed
+  
+ Output:
+ ===========
+ {"Novel Name":"Godaan","Novel Details":["Language: Hindi","Year of Publication: 1936","Publisher: Lokmanya Press"],"Author":"Munshi Premchand"}
