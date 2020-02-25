@@ -6,7 +6,7 @@ public class NumOddOrEvan {
  
     return (num % 2 == 0); //bad idea, statistically it may produce bad result over a period of time.
     
-    return (num & 1) ! = 0; //Good Idea.
+    return (num & 1) == 0; //Good Idea.
   
   }
   
