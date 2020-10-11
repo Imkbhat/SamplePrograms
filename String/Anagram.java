@@ -25,7 +25,7 @@ public static  void main(String[] args) {
 
 Anagram ana = new Anagram();
 
-String s1 = "Kiran";
+String s1 = "Kirana";
 String s2 = "nraKi";
 
 if(ana.isAnagram(s1,s2)) {
